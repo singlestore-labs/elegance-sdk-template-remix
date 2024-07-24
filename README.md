@@ -1,40 +1,28 @@
-# Welcome to Remix!
+# SingleStore Elegance SDK Remix Template
 
-- 📖 [Remix docs](https://remix.run/docs)
+**Attention**: The code in this repository is intended for experimental use only and is not fully tested, documented, or supported by SingleStore. Visit the [SingleStore Forums](https://www.singlestore.com/forum/) to ask questions about this repository.
 
-## Development
+## Installation
 
-Run the dev server:
-
-```shellscript
-npm run dev
-```
-
-## Deployment
-
-First, build your app for production:
+You can install this template by running:
 
 ```sh
-npm run build
+npx create-singlestoredb-app
 ```
 
-Then run the app in production mode:
+## Start Development Environment
 
-```sh
-npm start
-```
+1. Sign up for [SingleStore](https://www.singlestore.com/) and create a database
+2. Create an `.env` file based on the `.env.sample` file
+3. Install dependencies once by running: `npm i`
+5. Start development environment by running: `npm run dev`
+6. Open [http://localhost:5173](http://localhost:5173) with your browser.
 
-Now you'll need to pick a host to deploy it to.
+## Start Production Environment
 
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+1. Sign up for [SingleStore](https://www.singlestore.com/) and create a database
+2. Create an `.env` file based on the `.env.sample` file
+3. Install dependencies by running: `npm i`
+4. Build the application once by running: `npm run build`
+5. Start the application by running: `npm run start`
+6. Open [http://localhost:5173](http://localhost:5173) with your browser.
