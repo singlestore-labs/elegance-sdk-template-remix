@@ -1,5 +1,4 @@
 import type { MetaFunction } from "@remix-run/node";
-import { eleganceServerClient } from "~/eleganceServerClient";
 
 export const meta: MetaFunction = () => {
   return [
