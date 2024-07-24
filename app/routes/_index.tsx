@@ -14,9 +14,10 @@ const description = `SingleStore Elegance SDK is an NPM package that helps devel
 
 export default function Index() {
 
-  eleganceServerClient.connection.query(
-    'CREATE TABLE usersMarta (id BIGINT AUTO_INCREMENT PRIMARY KEY, created_at DATETIME);'
-  );
+  // Example on how to run a query
+  // eleganceServerClient.connection.query(
+  //   'CREATE TABLE usersMarta (id BIGINT AUTO_INCREMENT PRIMARY KEY, created_at DATETIME);'
+  // );
 
   return (
     <main className="relative flex min-h-screen w-full max-w-full" style={{
